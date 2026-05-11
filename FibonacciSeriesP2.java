@@ -2,6 +2,8 @@ package com.dsa.practice;
 
 public class FibonacciSeriesP2 {
 
+	// WAJP to print a fibonacci series
+	
 	public static void main(String[] args) {
 		int n=6;
 		int a=0,b=1;
