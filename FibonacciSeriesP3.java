@@ -2,6 +2,7 @@ package com.dsa.practice;
 
 public class FibonacciSeriesP3 {
 
+	//WAJP to print a Fibonacci Series
 	public static void main(String[] args) {
 		int a= 0,b=1;
 		System.out.print(a+" "+b);
