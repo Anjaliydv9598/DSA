@@ -10,11 +10,14 @@ public class ReturnTwoNum {
 		return a + " " +b;
 	}
 	public static void main(String [] args) {
-		System.out.println("returning Sum of two no's");
+		
+		System.out.println("Returning Sum of two no's");
 		int result = add(10,20);
 		System.out.println(result);
+		
 		System.out.println();
-		System.out.println("returning two no's");
+		
+		System.out.println("Returning two no's");
 		System.out.println(getNum(10,20));
 	}
 }
