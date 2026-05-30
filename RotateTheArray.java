@@ -2,6 +2,7 @@ package com.dsa.practice;
 
 public class RotateTheArray {
 
+	// WAJP to Rotate an Array
 	public static void main(String[] args) {
 	
 		int a = 2;
