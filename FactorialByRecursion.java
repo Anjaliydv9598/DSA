@@ -5,7 +5,7 @@ public class FactorialByRecursion {
 //		WAJP Print factorial of 5 using recursion
 		public static void main(String[] args) {
 			int fact = print(5);
-			System.out.print("Factorial : " + fact);
+			System.out.print("Factorial = " + fact);
 		}
 		
 		public static int print(int n) {
