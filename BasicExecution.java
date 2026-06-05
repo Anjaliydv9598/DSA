@@ -1,4 +1,4 @@
-package com.dsa.practice;
+package src.com.dsa.practice;
 
 public class BasicExecution {
 	
