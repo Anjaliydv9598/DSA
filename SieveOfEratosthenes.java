@@ -40,9 +40,7 @@ public class SieveOfEratosthenes {
 		if(n== -1) {
 			break;
 		}
-		
 		sieve(n);
-		
 		}
 		sc.close();
 	}
