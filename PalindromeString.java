@@ -1,9 +1,6 @@
 package com.dsa.practice;
 
 public class PalindromeString {
-	
-	//box model,flex&grid,jsEngine=fatbox, var,let,const,equal,equalsTo
-
 
 	    public static void main(String[] args) {
 
