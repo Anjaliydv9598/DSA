@@ -4,7 +4,7 @@ public class PalindromeString {
 
 	    public static void main(String[] args) {
 
-	        String str = "MADAM";
+	        String str = "DEVE";
 
 	        String reversed = new StringBuilder(str).reverse().toString();
 
