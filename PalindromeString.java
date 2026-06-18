@@ -9,8 +9,10 @@ public class PalindromeString {
 	        String reversed = new StringBuilder(str).reverse().toString();
 
 	        if (str.equals(reversed)) {
+	        	
 	            System.out.println("Palindrome");
-	        } else {
+	        } 
+	        else {
 	            System.out.println("Not Palindrome");
 	        }
 	    }
