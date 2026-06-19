@@ -11,8 +11,10 @@ public class PalindromeString {
 	        if (str.equals(reversed)) {
 	        	
 	            System.out.println("Palindrome");
+	            
 	        } 
 	        else {
+	        	
 	            System.out.println("Not Palindrome");
 	        }
 	    }
