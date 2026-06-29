@@ -17,7 +17,6 @@ public class SecondMaximum {
 			}
 		}
 		return secondMaximum;
-		
 	}
 	
 	public static void main(String[] args) {
