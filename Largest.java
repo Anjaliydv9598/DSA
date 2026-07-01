@@ -13,7 +13,6 @@ public class Largest {
 			{
 			largest=arr[i];
 			}
-			
 		}
 		System.out.println("Largest element is : " + largest);
 	}

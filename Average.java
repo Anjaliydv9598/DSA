@@ -11,6 +11,7 @@ public class Average {
 		}
 		double avg= sum/arr.length;
 		System.out.println(avg);
+		
 	}
 
 }
