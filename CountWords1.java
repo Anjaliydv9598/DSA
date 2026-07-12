@@ -12,6 +12,7 @@ public class CountWords1 {
 		String[] words=str.split("\\s+");
 		
 		System.out.println(words.length);
+		
 	}
 
 }
