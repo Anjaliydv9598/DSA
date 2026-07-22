@@ -18,8 +18,7 @@ public class ReverseStringg {
 	                result += word + " "; // add word to result
 	                word = "";            // reset
 	            }
-	        }
-	        
+	        }     
 	        result += word; // add last word
 	        
 	        System.out.println(result);
