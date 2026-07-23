@@ -17,10 +17,8 @@ public class TwoSum1 {
 				break;
 			}
 			else if(sum<target) {
-//				System.out.println("target is greater");
 				left++;
 			}else if(sum > target) {
-//				System.out.println("sum is greater");
 				right--;
 			}
 		}
