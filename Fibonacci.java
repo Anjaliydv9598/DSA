@@ -7,7 +7,7 @@ public class Fibonacci {
 		int total = 10;
 		
 		int first=0, second=1;
-		System.out.println("First num :- "+first + " " + ", Second num :- "+ second);
+		System.out.println("First num :- "+first + " " + ", Second num :- "+ second );
 		System.out.println("Fibonacci Series :- ");
 		
 		for(int i=2; i<=total; i++) {
