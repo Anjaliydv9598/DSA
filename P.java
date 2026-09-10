@@ -30,6 +30,8 @@ public class P {
 		}else {
 			System.out.println("Not Anagram");
 		}
+		
+		
 	
 		//reverse
 		String s= "hello";
