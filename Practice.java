@@ -1,6 +1,7 @@
 package com.dsa.practice;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Practice {
 
@@ -22,8 +23,18 @@ public class Practice {
 //		System.out.println("Largest elements : " + largest);
 		
 		// or  java 8 using reduce()
-		int largest = Arrays.stream(arr).reduce(Integer.MIN_VALUE,(a,b)->a>b?a:b);
-		System.out.println("Largest elements : " + largest);
+//		int largest = Arrays.stream(arr).reduce(Integer.MIN_VALUE,(a,b)->a>b?a:b);
+//		System.out.println("Largest elements : " + largest);
 		
+		//or
+		List<Integer> numbers = Arrays.asList(10, 25, 5, 40, 15);
+
+        System.out.println(findLargest(numbers));
 	}
+	 public static <T extends Comparable<T>> T findLargest(List<T> list) {
+
+	        return list.stream()
+	                   .max(Comparable::compareTo)
+	                   .orElseThrow();
+	    }
 }
